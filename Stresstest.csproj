@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBomber" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bflow.Approvals.Application.IntegrationTests\Bflow.Approvals.Application.IntegrationTests.csproj" />
+    <ProjectReference Include="..\Bflow.Approvals.Application\Bflow.Approvals.Application.csproj" />
+  </ItemGroup>
+
+</Project>
